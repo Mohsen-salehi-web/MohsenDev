@@ -1,0 +1,30 @@
+*{
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: dana;
+  src: url(../../public/font/dana-medium.eot);
+  src: url(../../public/font/dana-medium.woff);
+  src: url(../../public/font/dana-medium.woff2);
+}
+#root{
+  background-color: #dbd9d9;
+    background-image: url(/src/image/sp_main_bg.png);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 120vh;
+    padding: 20px;
+    font-family: dana;
+    color: rgb(71, 71, 71);
+}
+li{
+  list-style: none !important;
+}
+a{
+  text-decoration: none !important;
+  color: inherit !important;
+}
